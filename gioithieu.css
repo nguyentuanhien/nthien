@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.table {
+    display: table;
+    width: 100%;
+    border: 2px solid yellow;
+    /* Màu viền màu vàng */
+}
+
+.logo,
+.content {
+    display: table-cell;
+    padding: 10px;
+}
+
+.logo {
+    width: 20%;
+    /* Điều chỉnh kích thước của cột logo theo mong muốn */
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content {
+    width: 80%;
+    /* Điều chỉnh kích thước của cột nội dung theo mong muốn */
+}
